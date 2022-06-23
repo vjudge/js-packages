@@ -1,0 +1,17 @@
+{
+  "include": [
+    "./src/**/*.ts",
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "removeComments": true,
+    "stripInternal": true,
+    "moduleResolution": "node",
+    "outDir": "dist"
+  }
+}
